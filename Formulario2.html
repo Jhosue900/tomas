@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario datos personales</title>
+</head>
+<body><form>
+    <p ALIGN="right">fecha
+        <input type="text">
+    </p> ,
+    <fieldset> 
+        <legend><i>Registre sus datos </i></legend>
+            <label>
+                Nombre:
+                <input type="text">
+                Apellido:
+                <input type="text"><br><br>
+                Correo:
+                <input type="text">
+                Contraseña:
+                <input type="password"><br><br>
+                Sexo:
+                <select genero="select">
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                </select>
+                <br><br>
+                <label>Edad: </label>
+                <input type="radio" name="edad" value='Menor de edad' /> Menor de edad
+                <input type="radio" name="edad" value='Mayor de edad' /> Mayor de edad
+                </p>
+            </label>
+    </fieldset>
+    <fieldset> 
+        <legend><i>Otros datos </i></legend>
+            <label>
+                EPS:</label>
+                <select eps="select">
+                    <option value="1">Sura</option>
+                    <option value="2">Formag</option>
+                    <option value="1">Colsanitas</option>
+                    <option value="2">Otra</option>
+                </select>
+            <label>
+                <br><br>
+                Estudios: </label>
+                <select estudio="select">
+                    <option value="1">Primario</option>
+                    <option value="2">Bachillerato</option>
+                    <option value="1">Universidad</option>
+                    <option value="2">Maestria</option>  
+                </select>
+                <br><br>
+                <label>Gustos: </label>
+                <input type="radio" name="Gustos" value='Bailar' /> Bailar
+                <input type="radio" name="Gustos" value='Jugar' /> Jugar
+                <input type="radio" name="Gustos" value='Leer' /> Leer
+                <input type="radio" name="Gustos" value=' Otro' /> Otro
+                </p>
+            </fieldset> 
+            <label>
+                </datalist><br><br>
+                <textarea name="textarea" rows="10" cols="80" placeholder="Comentarios"></textarea>
+                <input type="submit" value="Enviar" />
+            </label>
+                
+            
+    </fieldset>
+</form>
+</body></html>

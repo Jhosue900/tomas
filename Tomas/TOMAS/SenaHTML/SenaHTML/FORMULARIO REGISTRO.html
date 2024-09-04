@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+            <h2>Formulario de Registro</h2>
+        <form action="/submit_registration" method="post" id="registrationForm">
+            
+            <label for="identification">Identificación:</label><br>
+                <input type="text" id="identification" name="identification"><span id="identificationError" class="error"></span><br>
+            <label for="phone">Teléfono:</label><br>
+                <input type="tel" id="phone" name="phone"><span id="phoneError" class="error"></span><br>
+
+            <label for="document_type">Tipo de Documento:</label><br>
+                <select id="document_type" name="document_type">
+                    <option value="cedula">Cédula</option>
+                    <option value="cedula">Tarjeta de Identidad</option>
+                </select><span id="documentTypeError" class="error"></span><br>
+            <label for="full_name">Nombre Completo:</label><br>
+                <input type="text" id="full_name" name="full_name"><span id="fullNameError" class="error"></span><br>
+            <label for="gender">Sexo:</label><br>
+                <select id="gender" name="gender">
+                    <option value="female">Femenino</option>
+                    <option value="male">Masculino</option>
+                </select><span id="genderError" class="error"></span><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+
+        </form>
+        </body>
